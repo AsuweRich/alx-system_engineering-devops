@@ -1,2 +1,2 @@
 #!/bin/bash
-printf 'x.2f\n' $NUM
+printf "x.2f\n" $NUM
