@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($BINaARY$DECIMAL=16))
+printf '%x\n' $DECIMAL
