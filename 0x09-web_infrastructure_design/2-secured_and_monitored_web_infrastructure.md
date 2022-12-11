@@ -1,6 +1,6 @@
 # Secured and Monitored Web Infrastructure
 ![image](https://user-images.githubusercontent.com/106776383/206898536-2f4a6512-ed6f-4874-bf2f-1492882b64b2.png)
-
+[Visit Board](https://miro.com/app/board/uXjVOfNFwbY=/)
 ## Description
 This is a 3-server web infrastructure that is secured, monitored, and serves encrypted traffic.
 
