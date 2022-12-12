@@ -28,7 +28,7 @@ This project contains tasks for learning more about the different ways a web inf
 
   2. Secured and monitored web infrastructure
 
-  [2-secured_and_monitored_web_infrastructure](https://github.com/AsuweRich/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/2-secured_and_monitorws_web_infrastructure) contains the URL of an image containing the design of a three server web infrastructure that hosts the website `www.foobar.com.` It must be secured, serve encrypted traffic, and be monitored.
+  [2-secured_and_monitored_web_infrastructure](https://github.com/AsuweRich/alx-system_engineering-devops/blob/master/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure) contains the URL of an image containing the design of a three server web infrastructure that hosts the website `www.foobar.com.` It must be secured, serve encrypted traffic, and be monitored.
     
   * Components to be added to the previous design:
       * 3 firewalls.
