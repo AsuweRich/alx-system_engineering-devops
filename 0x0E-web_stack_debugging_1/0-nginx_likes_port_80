@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-# what’s keeping your Ubuntu container’s Nginx installation from listening on port 8?
+# what’s keeping your Ubuntu container’s Nginx installation from listening on port 80?
 # configures nginx to run and listen to port 80
 
 rm /etc/nginx/sites-enabled/default
