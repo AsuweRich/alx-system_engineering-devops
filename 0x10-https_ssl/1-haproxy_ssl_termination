@@ -34,13 +34,13 @@ defaults
 	errorfile 504 /etc/haproxy/errors/504.http
 
 # start of parameters for milleniumhotspot.tech
-frontend milleniumhotspot.tech-https-frontend
+frontend milleniumhotspot.tech-http-frontend
 	bind	 *:80
-	http-request set-header X-Forwarded-Proto https
+	http-request set-header X-Forwarded-Proto http
 	default_backend	 milleniumhotspot.tech-backend
 
 
-frontend  milleniumhotspot.tech-https-frontend
+frontend milleniumhotspot.tech-https-frontend
 	bind *:443 ssl crt /etc/ssl/milleniumhotspot.tech.pem
 	http-request set-header X-Forwarded-Proto https
         default_backend milleniumhotspot.tech-backend
@@ -48,6 +48,6 @@ frontend  milleniumhotspot.tech-https-frontend
 
 backend milleniumhotspot.tech-backend
         balance roundrobin
-        server 914-web-01 34.138.32.248:80 check
-        server 914-web-02 3.226.74.205:80 check
+        server 83704-web-01 100.25.4.119:80 check
+        server 83704-web-02 52.91.133.57:80 check
 # end of parameters
