@@ -1,0 +1,13 @@
+[Unit]
+Description=Gunicorn instance to serve app 2-hbnb
+After=network.target
+
+[Service]
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/AirBnB_clone_v4/
+Environment=HBNB_MYSQL_USER=hbnb_dev HBNB_MYSQL_PWD=hbnb_dev_pwd HBNB_MYSQL_HOST=localhost HBNB_MYSQL_DB=hbnb_dev_db HBNB_TYPE_STORAGE=db
+ExecStart=/home/ubuntu/.local/bin/gunicorn --bind 0.0.0.0:5003 --workers=3 --access-logfile='/tmp/airbnb-access.log' --error-logfile='/tmp/airbnb-error.log' web_dynamic.2-hbnb:app
+
+[Install]
+WantedBy=multi-user.target
